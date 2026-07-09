@@ -37,6 +37,24 @@ const searchInput = document.getElementById("searchInput");
 const chatgptCard = document.getElementById("chatgptCard");
 const claudeCard = document.getElementById("claudeCard");
 const geminiCard = document.getElementById("geminiCard");
+const toolsContainer = document.getElementById("toolsContainer");
+for (let tool of tools) {
+
+toolsContainer.innerHTML += `
+
+<div class="card">
+
+<h3>${tool.name}</h3>
+
+<p>${tool.category}</p>
+
+<a href="#">Visit Website</a>
+
+</div>
+
+`;
+
+}
 searchInput.addEventListener("keyup", function () {
 
 let text = searchInput.value.toLowerCase();
