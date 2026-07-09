@@ -13,6 +13,16 @@ category: "AI Assistant"
 {
 name: "Gemini",
 category: "AI Assistant"
+},
+
+{
+name: "Perplexity",
+category: "Search"
+},
+
+{
+name: "Cursor",
+category: "Coding"
 }
 
 ];
