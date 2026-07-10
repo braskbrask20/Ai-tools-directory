@@ -19,6 +19,18 @@ category: "Coding"
 name: "Perplexity",
 category: "Search"
 }
+{
+name: "Canva AI",
+category: "Design"
+}
+{
+name: "Midjourney",
+category: "Image"
+}
+{
+name: "Notion AI"
+category: "productivity"
+}
 ];
 
 const searchInput = document.getElementById("searchInput");
