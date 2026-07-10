@@ -2,35 +2,50 @@ const tools = [
 {
 name: "ChatGPT",
 category: "AI Assistant",
-image: "asset/images/chatgpt.png"
+image: "asset/images/chatgpt.png",
+website: "https://chatgpt.com"
 },
 {
 name: "Claude",
-category: "AI Assistant"
+category: "AI Assistant",
+image: "asset/images/claude.png",
+website: "https://claude.ai"
 },
 {
 name: "Gemini",
-category: "AI Assistant"
+category: "AI Assistant",
+image: "asset/images/gemini.png",
+website: "https://gemini.google.com"
 },
 {
 name: "Cursor",
-category: "Coding"
+category: "Coding",
+Image: "asset/images/Cursor.png",
+website: "https://cursor.com"
 },
 {
 name: "Perplexity",
-category: "Search"
+category: "Search",
+image: "asset/images/Perplexity.png",
+website: "https://www.perplexity.ai"
 },
 {
 name: "Canva AI",
-category: "Design"
+category: "Design",
+image: "asset/images/Canva Ai.png",
+website: "https://www.canva.com"
 },
 {
 name: "Midjourney",
-category: "Image"
+category: "Image",
+image: "asset/images/Midjourney.png",
+website: "https://www.Midjourney.com"
 },
 {
 name: "Notion AI",
-category: "productivity"
+category: "productivity",
+image: "asset/images/Notion Ai.png",
+website: "https://www.notion.so"
 }
 ];
 
@@ -45,9 +60,10 @@ for (let tool of toolList) {
 
 toolsContainer.innerHTML += `
 <div class="card">
+<img src="${tool.image}" alt="${tool.name}" class="tool-logo">
 <h3>${tool.name}</h3>
 <p class="category">${tool.category}</p>
-<a href="#">Visit Website</a>
+<a href="${tool.website}" target="_blank">Visit Website</a>
 </div>
 `;
 

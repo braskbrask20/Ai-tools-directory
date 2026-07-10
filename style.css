@@ -96,9 +96,15 @@ margin-bottom: 30px;
 background-color: white;
 width: 300px;
 margin: 20px auto;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+text-align: center;
+transition: transform 0.3s, box-shadow 0.3s;
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba (0,0,0,0.2);
+}
 }
 
 .card h3 {
@@ -124,10 +130,6 @@ background-color: #222;
 color: white;
 }
 
-ackground-color: #007BFF;
-
-background-color: green;
-
 .category {
 display: inline-block;
 background-color: #e8f0fe;
@@ -136,5 +138,12 @@ padding: 5px 10px;
 border-radius: 20px;
 font-size: 14px;
 font-weight: bold;
+margin-bottom: 15px;
+}
+
+.tool-logo {
+width: 60px;
+height: 60px;
+object-fit: contain;
 margin-bottom: 15px;
 }
