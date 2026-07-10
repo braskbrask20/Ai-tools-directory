@@ -1,7 +1,8 @@
 const tools = [
 {
 name: "ChatGPT",
-category: "AI Assistant"
+category: "AI Assistant",
+image: "asset/images/chatgpt.png"
 },
 {
 name: "Claude",
@@ -18,17 +19,17 @@ category: "Coding"
 {
 name: "Perplexity",
 category: "Search"
-}
+},
 {
 name: "Canva AI",
 category: "Design"
-}
+},
 {
 name: "Midjourney",
 category: "Image"
-}
+},
 {
-name: "Notion AI"
+name: "Notion AI",
 category: "productivity"
 }
 ];
@@ -45,7 +46,7 @@ for (let tool of toolList) {
 toolsContainer.innerHTML += `
 <div class="card">
 <h3>${tool.name}</h3>
-<p>${tool.category}</p>
+<p class="category">${tool.category}</p>
 <a href="#">Visit Website</a>
 </div>
 `;
