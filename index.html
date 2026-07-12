@@ -9,28 +9,46 @@
 </head>
 
 <body>
-    <nav>
-<h2>AI Tools Directory</h2>
+
+<!-- Navigation -->
+
+<nav>
+
+<h2>🤖 AI Tools Directory</h2>
 
 <ul>
-<li>Home</li>
-<li>Categories</li>
-<li>About</li>
+<li><a href="#">Home</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#categories">Categories</a></li>
+<li><a href="#about">About</a></li>
 </ul>
+
 </nav>
+
+<!-- Hero -->
 
 <section class="hero">
 
-<h1>Find the Best Free AI Tools</h1>
+<h1>
+Discover the Best AI Tools
+</h1>
 
 <p>
-Discover AI tools for coding, writing,
-design, productivity and automation.
+
+Explore powerful AI tools for writing,
+coding, design, search, productivity
+and image generation.
+
 </p>
 
-<button>Explore Tools</button>
+<button id="exploreBtn">
+Browse AI Tools →
+</button>
 
 </section>
+
+<!-- Search -->
+
 <section class="search">
 
 <input
@@ -40,48 +58,122 @@ placeholder="Search AI tools...">
 
 </section>
 
-<section class="categories">
+<!-- Categories -->
 
-<h2>Categories</h2>
+<section
+class="categories"
+id="categories">
+
+<h2>Popular Categories</h2>
 
 <div>
 
-<button>Writing</button>
+<button class="category-btn" data-category="All">All</button>
 
-<button>Coding</button>
+<button class="category-btn" data-category="Writing">
+Writing
+</button>
 
-<button>Video</button>
+<button class="category-btn" data-category="Coding">
+Coding
+</button>
 
-<button>Image</button>
+<button class="category-btn" data-category="Design">
+Design
+</button>
 
-<button>Automation</button>
+<button class="category-btn" data-category="Image">
+Image
+</button>
 
-<button>Productivity</button>
+<button class="category-btn" data-category="Search">
+Search
+</button>
+
+<button class="category-btn" data-category="Productivity">
+Productivity
+</button>
 
 </div>
 
 </section>
-<section class="tools">
 
-<h2>Featured Tools</h2>
+<!-- Statistics -->
 
-<div id="toolsContainer"></div>"
+<section class="stats">
+
+<h2>
+📊 <span id="toolCount">8</span> AI Tools Available
+</h2>
+
 </section>
 
-<a href="#">Visit Website</a>
+<!-- Tools -->
+
+<section
+class="tools"
+id="tools">
+
+<h2>Featured AI Tools</h2>
+
+<div
+id="toolsContainer"
+class="tools-container">
 
 </div>
+
+</section>
+
+<!-- About -->
+
+<section
+id="about"
+class="about">
+
+<h2>About</h2>
+
+<p>
+
+AI Tools Directory helps developers,
+creators, students and businesses
+discover the best AI tools in one place.
+
+</p>
+
+</section>
+
+<!-- Footer -->
 
 <footer>
 
+<h3>🤖 AI Tools Directory</h3>
+
 <p>
-Made with ❤️ by stacks
+
+Helping people discover the world's
+best AI tools.
+
+</p>
+
+<br>
+
+<p>
+
+Built by <strong>Stacks</strong>
+
+</p>
+
+<br>
+
+<p>
+
+© 2026 AI Tools Directory
+
 </p>
 
 </footer>
 
-</body>
-
 <script src="script.js"></script>
 
+</body>
 </html>
