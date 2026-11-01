@@ -82,6 +82,16 @@ pricing: "Freemium",
 rating: "4.8",
 image: "assets/images/notion-ai.png",
 website: "https://www.notion.so"
+},
+
+{
+name: "agent-qa",
+category: "Coding",
+description: "Natural-language web and mobile testing with memidex persistent memory and validated self-improvement.",
+pricing: "Free for FSL-permitted uses; model/device costs extra",
+rating: "Not rated",
+image: "assets/images/agent-qa.png",
+website: "https://vostride.com"
 }
 
 ];
